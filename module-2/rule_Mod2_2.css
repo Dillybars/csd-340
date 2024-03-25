@@ -1,0 +1,52 @@
+/* CSS file to merge to the HTML document */
+body, html {
+    font-size: 16px;
+}
+
+p {
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 500;
+    text-align: left;
+    padding-top: 15px;
+}
+
+address {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #D6A800;
+}
+
+a:visited {
+    /* Styling for visited links */
+    /* You can customize this as per your preference */
+}
+
+a.website {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #4F3674;
+}
+
+.sentence {
+    font-style: italic;
+}
+
+.intro {
+    text-
