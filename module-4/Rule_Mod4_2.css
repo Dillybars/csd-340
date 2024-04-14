@@ -1,9 +1,13 @@
-body {
-    margin: 0;
-    padding: 0;
+/* Rule_Mod4_2.css */
+
+/* Apply a grid with three columns for the 3 sidebyside divs */
+#image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
 }
 
-#container{
+#image-gallery {
     margin-top: 10%;
 }
 
@@ -19,13 +23,11 @@ figure {
     text-align: center;
 }
 
-figcaption {
-    font-style: italic;
-    font-size: 0.75em;
+#image-gallery img {
+    width: 300px;
+    height: auto; 
 }
 
-#image-gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-
+figcaption, h3 {
+    color: initial; 
+}
